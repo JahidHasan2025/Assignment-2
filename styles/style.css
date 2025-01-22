@@ -100,3 +100,34 @@ color: white
     margin: 10px 10px;
 }
 /* hero part start here */
+.hero-banner{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 0px;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.hero-banner h1{
+    font-size: 3.5vw;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.hero-banner p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.hero-banner button{
+    font-size: 1.3vw;
+    font-weight: 700;
+    line-height: 30px;
+    border-style: none;
+    color: white;
+    background-color: black;
+}
+.hero-banner button:hover{
+    background: #47444;
+}
+
+/* standard curriculum start here */
