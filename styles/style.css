@@ -131,3 +131,13 @@ color: white
 }
 
 /* standard curriculum start here */
+
+/* curriculum section */
+.Curriculum-section{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 60px 10px;
+    margin: 0 auto;
+max-width: 1160px;
+}
