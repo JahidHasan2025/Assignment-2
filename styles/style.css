@@ -133,11 +133,96 @@ color: white
 /* standard curriculum start here */
 
 /* curriculum section */
-.Curriculum-section{
+.curriculum-section{
     display: flex;
     flex-direction: column;
     gap: 80px;
     padding: 60px 10px;
     margin: 0 auto;
 max-width: 1160px;
+}
+.curriculum-section h2{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+}
+.curriculum-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    padding: 0 20px;
+}
+.curriculum-card{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    border-radius: 18.864px;
+    border: 0.943px solid #fff4dc;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
+}
+.curriculum-card:hover{
+    border: 0.943.px solid #c8c5bf;
+    box-shadow: 0px 0px 28.296px 0.943px rgba(2, 2, 2, 0.05) inset;
+}
+.curriculum-card img{
+    width: 40%;
+    margin: 0 auto;
+}
+.curriculum-card h4{
+    font-size: 24.523px;
+    font-weight: 700;
+    line height: ;
+}
+.curriculum-card p {
+    color: #808080;
+  
+    font-size: 15.091px;
+    font-weight: 500;
+    line-height: 28.296px;
+  }
+  .curriculum-card button  {
+    font-size: 15.091px;
+    font-weight: 700;
+    line-height: 28.296px;
+    border-style: none;
+    background: none;
+  }
+  .curriculum-card button a{
+    text-decoration: none;
+      color: var(--second-color);
+  }
+  
+  .curriculum-card-1 {
+    background: linear-gradient(180deg, #def5ff 0%, rgba(255, 255, 255, 0) 40%),
+      #fff;
+  }
+  .curriculum-card-2 {
+    background: linear-gradient(180deg, #fff4dc 0%, rgba(255, 255, 255, 0) 40%),
+      #fff;
+  }
+  .curriculum-card-3 {
+    background: linear-gradient(180deg, #eee1ff 0%, rgba(255, 255, 255, 0) 40%),
+      #fff;
+  }
+  .curriculum-button{
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+  }
+  .curriculum-btn{
+    width: 55px;
+    height: 55px;
+    padding: 17px 0px 19px 0px;
+    border-radius: 30px;
+    background: #fea301;
+    border-style: none;
+    color: white;
+  }
+
+.curriculum-btn i{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
 }
