@@ -336,3 +336,118 @@ max-width: 1160px;
 .story-btn:hover{
     background: #393939
 }
+/* footer section start here */
+footer{
+    background-color: var(--second-color);
+    color: #fff;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 100px 20px;
+    max-width: 1160px;
+  }
+
+  .first-part {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .first-part h4 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+  }
+  
+  .first-part p {
+    max-width: 400px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+  }
+  .second-part h4 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  footer ul li {
+    list-style-type: none;
+    padding-top: 9px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  footer ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+  }
+  .footer-icon {
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+  }
+  .third-part h6 {
+    color: #fff;
+    font-family: Quicksand;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 25px;
+  }
+ 
+  /* responsive for mobile start here */
+  @media screen and (max-width: 576) {
+    /* navbar part */
+    .display-none {
+        display: none;
+    }
+    .navbar-part{
+        border: 2px solid rgb(253, 176, 61);
+        padding: 10px 10px;
+    }
+
+    .nav-icon {
+        display: block;
+      }
+   .logo{
+    width: 11vw;
+   }
+   .nav-icon {
+    font-size: 8vw;
+  }
+ /* banner part start  */
+ .hero-banner {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+  .hero-banner-content {
+    width: 100%;
+
+    text-align: center;
+  }
+  .hero-img {
+    width: 100%;
+  }
+  .hero-banner h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+  .hero-banner p {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(17, 17, 17, 1);
+    margin-bottom: 18px;
+  }
+  .hero-banner button {
+    font-size: medium;
+  }
+ /* curriculum part  */
+  }
+  
